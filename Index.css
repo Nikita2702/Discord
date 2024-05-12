@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(125, 233, 125);
+    display: flex;
+    justify-content: center;
+}
+
+#header>.leaf1{
+    height: 100%;
+    width: 11%;
+    background: url(./Assets/leaf1.svg);
+    /* background-color: red; */
+}
+#header>.blank{
+    height: 100%;
+    width: 5%;
+    
+}
+#header>.teddy1{
+    height: 100%;
+    width: 10%;
+    /* background-color: whitesmoke; */
+    background: url(./Assets/navteddy.svg);
+    
+}
+#header>nav{
+    height: 100%;
+    width: 55%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header>nav>.text>h1{
+    font-size: 23px;
+}
+#header>nav>.text{
+    text-align: center;
+}
+#header>nav>.button>button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color:#4b5af4;
+    border-radius: 20px;
+    /* border: none; */
+}
+
+#header>.teddy2{
+    height: 100%;
+    width: 11%;
+    background-color: rgb(73, 16, 207);
+    background :url(./Assets/leaf1.svg);
+}
+#header>.leaf2{
+    height: 100%;
+    width: 16%;
+    background: url(./Assets/nav.svg);
+    background-repeat: no-repeat;
+}
+#main{
+    height: 104vh;
+    width: 100%;
+    background-color: #4b5af4;
+
+}
+#main>nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+}
+#main>nav>article{
+    height: 80px;
+    width: 94%;
+    
+    /* border: 2px solid black; */
+    display: flex;
+}
+#main>nav>article>.logo{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+/* #main>nav>article>.logo>svg{
+    /* height: 100px;
+    width: 100px;
+    background-color: red; */
+    /* fill: white; */
+/* }  */
+#main>nav>article>.menu{
+    /* background-color: rgb(255, 0, 0); */
+    height: 100%;
+    width: 55%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#main>nav>article>.menu>li{
+    list-style-type: none;
+    font-weight: bold;
+}
+#main>nav>article>.menu>li>a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+   
+}
+#main>nav>article>.menu>li>a:hover{
+    text-decoration: underline;
+}
+#main>nav>article>.login{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+#main>nav>article>.login>a>button{
+    height: 37px;
+    width: 65px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+#main>nav>article>.login>a>button:hover{
+    color: #3d49d2;
+}
+#main>main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    background: url(./Assets/cloud.svg);
+    background-position: center;
+    /* background-color: red; */
+}
+/* #main>.left{
+    background: url(./Assets/cartoon.svg);
+    width: 50px;
+    position: left;
+} */
+#main>main>article{
+    margin-top: 5%;
+    height: 70%;
+    width: 79%;
+    /* background-color: red; */
+
+}
+/* #main>main>.left{
+    width: 15%;
+   
+} 
+ #main>main>.right{
+    width: 20%;
+} */
+#main>main>article>h1{
+    font-size:52px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 900;
+     /* line-height: 90%; */
+}
+#main>main>article>.text{
+    font-size: 18px;    
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main>main>article>.outerbutton{
+    height: 55px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+#main>main>article>.outerbutton>.button{
+    height: 55px;
+    width:90%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:space-around;
+    
+   
+}
+#main>main>article>.outerbutton>.button>button{
+    height: 100%;
+    width: 320px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+}
+#main>main>article>.outerbutton>.button>.first{
+    color: rgb(39, 37, 37);
+    background-color: white;
+}
+#main>main>article>.outerbutton>.button>.first:hover{
+    color: #3d49d2;
+}
+#main>main>article>.outerbutton>.button>.second{
+    color: black;
+}
+#main>main>article>.outerbutton>.button>.second:hover{
+    background-color: rgb(46, 45, 45);
+}
+#main>main>article>.outerbutton>.button>.second{
+    /* background-color: rgb(39, 37, 37); */
+    background-color: rgb(39, 38, 38);
+    color: white;
+ /* -------------------=============================================================-------------------------- */  
+}
+#first{
+    height: 115vh;
+    width: 100%;
+   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#first>article{
+    height: 60%;
+    width: 92%;
+   
+    display: flex;
+}
+#first>article>.content{
+    margin-left: 18%;
+    margin-top: 6%;
+    height: 100%;
+    width: 50%;
+ 
+}
+#first>article>.content>h1{
+    font-size: 38px;
+   
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first>article>.content>p{
+    line-height: 1.7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#first>article>.image{
+    height: 100%;
+    width: 50%;
+   
+}
+
+
+/* -------------------=============================================================-------------------------- */
+#second{
+    height: 110vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second>article{
+    height: 65%;
+    width: 93%;
+    /* border: 2px solid rgb(220, 48, 105) ; */
+    display: flex;
+    justify-content: center;
+}
+#second>article>.content{
+    height: 100%;
+    width: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7.5%;
+    /* background-color: blue; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+#second>article>.image{
+    height: 100%;
+    width: 68%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: end;
+}
+
+#second>article>.content>h1{
+    font-size: 38px;
+  
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#second>article>.content>p{
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+/* ..............................voice cmpltd............................... */
+#third{
+    height: 105vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#third>article{
+    height: 65%;
+    width: 93%;
+    /* border: 2px solid rgb(220, 48, 105) ; */
+    display: flex;
+    justify-content: center;
+}
+#third>article>.image{
+    height: 100%;
+    width: 68%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: left;
+}
+#third>article>.content{
+    height: 100%;
+    width: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    
+    margin-top: 5%;
+    
+}
+#third>article>.content>h1{
+    font-size: 38px;
+  
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#third>article>.content>p{
+    font-size: 19px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* ===================================cmpltd=================================== */
+#fourth{
+    height: 200vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fourth>article{
+    height: 80%;
+    width: 88%;
+    /* border: 3px solid rgb(220, 48, 105) ; */
+    
+}
+
+#fourth>article>.content{
+    height: 20%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    text-align: center;
+    
+}
+#fourth>article>.content>h1{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#fourth>article>.content>p{
+    font-weight: lighter;
+    font-size: 19px;
+    margin-left: 85px;
+    margin-right: 85px;
+    line-height: 1.5;
+    /* background-color: yellow; */
+}
+#fourth>article>.image{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red;   */
+}
+#fourth>article>.btn{
+    padding-top: 10%;
+    height: 25%;
+    width: 100%;
+    /* background-color: rgb(32, 162, 213);   */
+   
+}
+#fourth>article>.btn>h1{
+    font-size: 30px;
+    text-align: center;
+    background: url(./Assets/sparkle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#fourth>article>.btn>button{
+    height: 60px;
+    margin-left: 36%;
+    background-color: #4b5af4;
+    width: 300px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+#fourth>article>.btn>button:hover{
+    background-color: #7580ff;
+}
+/* ===============================cmpltd==================================== */
+#footer{
+    background-color: #23272a;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer>article{
+    height: 80%;
+    width: 94%;
+    padding-top: 20px;
+    /* border:4px solid red; */
+}
+
+
+#footer>article>.logo{
+height: 15%;
+width: 100%;
+/* background-color: #d71200; */
+display: flex;
+justify-content: space-between;
+align-items: end;
+}
+#footer>article>.logo>button{
+    height: 38px;
+    width: 75px;
+    border: none;
+    border-radius: 35px;
+    background-color: #4b5af4;
+    color: white;
+}
+#footer>article>.logo>button:hover{
+    background-color: #7580ff;
+}
+#footer>article>.logo>svg{
+    fill: white;
+}
+#footer>article>.content{
+    height: 85%;
+    width: 100%;
+    /* background-color: #4bf451; */
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#footer>article>.content>.english{
+    height: 100%;
+    width: 34%;
+   
+    list-style-type: none;
+    color: white;
+    padding-top: 20px;
+  
+    font-size: 13PX;
+}
+#footer>article>.content>.product{
+    height: 100%;
+    width: 16%;
+    /* background-color: #ede6ea; */
+    list-style-type: none;
+}
+#footer>article>.content>.company{
+    height: 100%;
+    width: 18%;
+    /* background-color: #0f8e9c; */
+    list-style-type: none;
+}
+#footer>article>.content>.resources{
+    height: 100%;
+    width: 17%;
+    /* background-color: #251ca5; */
+    list-style-type: none;
+}
+#footer>article>.content>.policy{
+    height: 100%;
+    width: 15%;
+    /* background-color: #1b0606; */
+    list-style-type: none;
+}
+#footer>article>.content>div>li{
+    color:  #4b5af4;
+}
+#footer>article>.content>div>li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    line-height: 2;
+}
+#footer>article>.content>div>li>a:hover{
+    text-decoration: underline;
+}
+
+#footer>article>.content>.english>article{
+    padding-top: 50px;
+    height: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer>article>.content>.english>article>i{
+    font-size: 20px;
+}
+hr{
+    border: 1px solid #3d49d2;
+}
